@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <meta name="generator" content="{{ eleventy.generator }}" />
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+  <main>{% block content %}{% endblock %}</main>
+  {% block footer %}{% endblock %}
+
+</body>
+</html>
